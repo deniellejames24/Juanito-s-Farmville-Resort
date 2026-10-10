@@ -1,0 +1,409 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Verdana;
+}
+
+body{
+	position: relative;
+	background: url('../images/EYYYYY.png');
+	background-size: cover;
+	margin: 0px;
+	
+}
+
+/*id starts here*/
+
+/*index id starts here*/
+#logo{
+	height: 120px;
+	width: 120px;
+	margin-left: 20px;
+	float: left;
+	background: none;
+	position: absolute;
+}
+
+#header{
+	top: 0;
+	overflow-x: hidden;
+	position: fixed;
+	z-index: 1;
+	background-image: url('../images/header.png');
+	height: 120px;
+	width: 100%;
+	border-radius: 2px;
+	box-shadow: 0px 10px 20px 10px #9BA1C7;
+	overflow-y: hidden; 
+	
+}
+
+
+#content{
+	margin-top: -225px;
+	height: 1250px;
+	width: 100%;
+	background-color: none;
+	z-index: -1;
+}
+
+.packages{
+	margin-top: 350px;
+	width: 100%;
+	background-color: none;
+	z-index: -1;
+	position: relative;
+}
+
+#body{
+	width: 800px;
+	height: 500px;
+	margin-top: 20px;
+	border-radius: 20px;
+	margin-left: 270px ;
+	border: 6px solid whitesmoke;
+}
+
+#body:hover{
+	transition: all .5s ;
+	cursor: pointer;
+	transform: scale(1.05);
+	position: absolute;
+}
+
+#title{
+	margin-top: 20px;
+	margin-left: 430px;
+	margin-right: 500px;
+	color: #281e32;
+	float: left;
+	border: 2px white solid;
+	border-radius: 30px;
+	height: 55px;
+	width: 500px;
+	text-align: center;
+	background-color: #001523;
+	font-size: 45px;
+	
+}
+
+#backbtn a{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-family: impact;
+
+}
+
+#backbtn{
+	margin-top: 40px;
+	margin-left: 40px;
+	float: left;
+	height: 30px;
+	width: 100px;
+	color: white ;
+	background-color: #001523;
+	border: 2px white solid;
+	border-radius: 30px;
+	position: absolute;
+}
+
+
+#backbtn:hover{
+	background-color: #fe6e00;
+	height: 30px;
+	width: 100px;
+	border: 2px #eead5b solid;
+	float: left;
+	color: black;
+	cursor: pointer;
+}
+
+#backbtn:hover a{
+	color: black;
+}
+
+/* footer */
+#footer{
+	background-color: #00111c;
+	height: 150px;
+	width: 100%;
+	margin-top: 60px;
+	box-shadow: 0px -10px 20px 10px #00111c;
+	float: left;
+	position: auto;
+	bottom: -200px;
+	z-index: 2;
+}
+
+.footerlinks{
+	color: white; 
+	height: 100%;
+	width: 31.85%;
+	float: left;
+	padding-top: 30px;
+	padding-left: 20px;
+	background-color: #00111c;
+}
+
+
+#icon{
+	height: 50px;
+	width: 50px;
+	float: left;
+	margin-left: 190px;
+
+
+}
+
+#linkicon{
+	height: 30px;
+	width: 30px;
+	float: left;
+	margin-right: 10px;
+}
+
+.footerlinks a{
+	color: white;
+	text-decoration: none;
+}
+
+.footerlinks a:hover{
+	color: grey;
+	text-decoration: none;
+}
+
+/* footer ends */
+
+#box1 h3{
+	margin-top: 10px;
+	padding-top: 6px;
+	font-size: 14px;
+}
+
+
+#box2 h5{
+	margin-left: 64px;
+	margin-top: 10px;
+}
+
+#box2 h3{
+	margin-left: 67px;
+	margin-top: 10px;
+}
+
+#box3 h3{
+	margin-left: 50px;
+}
+
+#box3 img{
+	margin-left: 50px;
+}
+
+
+/* SIDE NAV*/
+
+#sidebar{
+	background-color: #001523;
+	height: 100%;
+	width: 70px;
+	position: aboslute;
+	float: left;
+}
+
+#sidebar:hover{
+	background-color: #001523;
+	height: 100%;
+	width: 70px;
+	position: aboslute;
+	float: left;
+	color: black;
+	
+}
+
+#sidebar:hover span{
+	color: black;
+}
+
+
+#header span{
+	float: left;
+	position: absolute;
+	margin: 40px 0px 0px 20px;
+	color: white;
+	
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	overflow-x: hidden;
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0, 0.9);
+	transition: 0.5s;
+	padding-top: 120px;
+
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+/* UPDATE */
+.sidenav p {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 20px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav p:hover {
+	color: #f1f1f1;
+	cursor: pointer;
+	
+
+}
+/* UPDATE */
+
+
+.sidenav a:hover {
+	color: #f1f1f1;
+	
+
+}
+
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+/*room*/
+#title{
+	color: white;
+}
+.roomInteractive{
+	width: 280px;
+	height: 400px;
+	float: left;
+	margin-left: 40px;
+	color: white;
+	border: 3px solid #001523;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-bottom: 80px;
+
+}
+
+.roomInteractive:hover{
+	transition: all .5s ;
+	transform: scale(1.05);
+}
+
+#roomrate{
+	color: white;
+	font-size: 22px;
+	margin-left: 30px;
+
+}
+
+.rate{
+	margin-left: 60px;
+	color: white;
+	font-size: 22px;
+	
+}
+
+.rooms{
+	margin-top: 20px;
+	width:49%;
+	float: left;
+}
+
+.cottage{
+	margin-top: 10px;
+	width:49%;
+	float: left;
+}
+
+/*entrance*/
+
+
+#poolrate{
+	color: whitesmoke;
+	font-size: 22px;
+	margin-left: 30px;
+	
+}
+
+.pool{
+	margin-left: 60px;
+	color: whitesmoke;
+	font-size: 22px;
+	font-weight: 20px;
+
+}
+
+.entrance{
+	margin-top: 10px;
+	width:49%;
+	float: left;
+
+}
+.entrancePrice{
+	margin-top: 20px;
+	width:49%;
+	float: left;
+}
+
+/*cottage*/
+
+#cottagerate{
+	color: white;
+	font-size: 22px;
+	margin-left: 30px;
+}
+
+.cottage1{
+	margin-left: 60px;
+	color: white;
+	font-size: 22px;
+}
+
+.cottage{
+	margin-top: 10px;
+	width:49%;
+	float: left;
+}
+
+.cottagePrice{
+	margin-top: 10px;
+	width:49%;
+	float: left;
+}
+
+.roomsImg{
+	margin-bottom: 200px;
+	float: left;
+	width: 100%;
+	top: -100px;
+}
+
+#poolrate, #cottagerate, #roomrate {
+	font-family: impact;
+	font-size: 30px;
+}
